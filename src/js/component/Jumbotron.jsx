@@ -16,4 +16,4 @@ export const Jumbotron = () =>{
     )
 }
 
-
+export default Jumbotron;
