@@ -7,7 +7,15 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Footer from "./component/Footer.jsx";
+
+
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('app')).render(
+  <div>
+	<Home />
+	<Footer />
+  </div>
+);
 
